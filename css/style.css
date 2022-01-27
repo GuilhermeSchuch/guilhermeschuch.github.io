@@ -253,3 +253,35 @@
         font-size: 3.75em;
     }
 }
+
+@media (min-width: 451px) and (max-width: 1050px) {
+    #btn-project{
+        margin: 4vh 0;
+        padding: 2vh 1vw;
+        width: 20vw;
+    }
+
+    #btn-project ion-icon{
+        font-size: 1.25em;
+        max-width: 4vw;
+    }
+    
+    #social-container li{
+        max-width: 7vw;
+    }
+
+    #email-container a{
+        max-width: 23vw;
+    }
+
+    .skills-box{
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-bottom: 6vh;
+        text-align: left;
+    }
+
+    .skills-box i{
+        font-size: 3.75em;
+    }
+}
