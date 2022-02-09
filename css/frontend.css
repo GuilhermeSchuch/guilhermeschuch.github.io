@@ -38,7 +38,7 @@
 
 #bio-container{
     flex: 1 1 20%;
-    min-height: 100vh;
+    min-height: 8vh;
     background-color: var(--bio-bg-color);
     text-align: center;
     padding: 5vh 2.2vw;
@@ -105,7 +105,7 @@
     max-width: 2vw;
 }
 
-#name{
+#front-end-title{
     font-size: 2.625em;
     margin-bottom: 2vh;
 }
@@ -122,7 +122,7 @@
     line-height: 1.4;
 }
 
-#btn-project{
+#btn-voltar{
     font-weight: bold;
     font-size: 1em;
     color: var(--main-text-color);
@@ -133,22 +133,25 @@
     transition: .5s;
     margin: 4vh 0;
     padding: 2vh 1vw;
-    width: 11vw;
     text-align: center;
     display: flex;
 }
 
-#btn-project:hover{
+#btn-voltar:hover{
     background-color: transparent;
 }
 
-#btn-project ion-icon, #btn-project span{
+#btn-voltar ion-icon, #btn-voltar span{
     flex: 1 1 0;
 }
 
-#btn-project ion-icon{
+#btn-voltar span{
+    margin-left: -7vw;
+}
+
+#btn-voltar ion-icon{
     font-size: 1.25em;
-    max-width: 1.5vw;
+    max-width: 8.5vw;
 }
 
 .sections-title{
@@ -158,35 +161,24 @@
     font-size: 2em;
 }
 
-#skills-container{
+#projetos-container{
     display: flex;
     flex-wrap: wrap;
     margin-top: 4vh;
 }
 
-.skills-box{
+.projetos-box{
     flex: 1 1 33%;
-    max-width: 33%;
+    max-width: 100%;
     margin-bottom: 4vh;
 }
 
-.skills-box:hover{
-    background-color: #070a0e;
-    border-radius: .5em;
-    transition: .5s;
-}
-
-.skills-box a{
+.projetos-box a{
     text-decoration: none;
     color: white;
 }
 
-.skills-box i{
-    font-size: 2.8125em;
-    margin-right: 1vw;
-}
-
-.skills-title{
+.projetos-title{
     font-size: 1.5em;
     margin-bottom: 4vh;
     font-weight: bold;
