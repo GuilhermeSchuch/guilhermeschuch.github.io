@@ -19,6 +19,10 @@
     --about-bg-color: #111821;
 }
 
+img{
+    width: 65vw;
+}
+
 .highlight{
     color: var(--main-color);
 }
@@ -248,38 +252,39 @@
         line-height: 1.625em;
     }
 
-    #btn-project{
+    #btn-voltar{
         margin: 2.5vh auto;
         width: 40vw;
     }
     
-    #btn-project ion-icon{
+    #btn-voltar ion-icon{
         font-size: 1.25em;
         max-width: 10vw;
     }
 
-    .skills-box{
+    .projetos-box{
         flex: 1 1 100%;
         max-width: 100%;
         margin-bottom: 6vh;
         text-align: left;
     }
 
-    .skills-box i{
-        font-size: 3.75em;
-    }
 }
 
 @media (min-width: 451px) and (max-width: 1050px) {
-    #btn-project{
+    #btn-voltar{
         margin: 4vh 0;
         padding: 2vh 1vw;
-        width: 20vw;
+        width: 30vw;
     }
 
-    #btn-project ion-icon{
+    #btn-voltar ion-icon{
         font-size: 1.25em;
-        max-width: 4vw;
+        max-width: 7vw;
+    }
+
+    #btn-voltar span{
+        padding-left: 3vw;
     }
     
     #social-container li{
@@ -287,17 +292,15 @@
     }
 
     #email-container a{
-        max-width: 23vw;
+        max-width: 30vw;
+        font-size: .8em;
     }
 
-    .skills-box{
+    .projetos-box{
         flex: 1 1 100%;
         max-width: 100%;
         margin-bottom: 6vh;
         text-align: left;
     }
 
-    .skills-box i{
-        font-size: 3.75em;
-    }
 }
