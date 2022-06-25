@@ -105,6 +105,18 @@
     max-width: 2vw;
 }
 
+#translate{
+    margin-top: 5vh;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
 #name{
     font-size: 2.625em;
     margin-bottom: 2vh;
