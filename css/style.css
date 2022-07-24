@@ -115,6 +115,12 @@
     justify-content: center;
     text-decoration: none;
     color: white;
+    transition: .5s;
+}
+
+#translate:hover{
+    background-color: transparent;
+    border: 1px solid var(--main-color);
 }
 
 #name{
